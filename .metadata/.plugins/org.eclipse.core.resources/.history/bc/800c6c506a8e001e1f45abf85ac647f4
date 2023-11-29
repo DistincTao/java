@@ -1,0 +1,16 @@
+package colletions;
+
+import java.util.Arrays;
+
+public class SortListTest {
+
+	public static void main(String[] args) {
+		String[] strArr = {"a", "b", "e", "q", "E", "W"};
+		Arrays.sort(strArr);
+		System.out.println(Arrays.toString(strArr));
+		
+		System.out.println(Arrays.sort(strArr, String.CASE_INSENSITIVE_ORDER));
+
+	}
+
+}
