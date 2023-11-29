@@ -1,0 +1,47 @@
+package queueNumber;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+
+public class QueueEx1_WaitingList {
+
+	public static void main(String[] args) {
+		Queue <Integer> waitList = new LinkedList<>();
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("1. 대기 번호 발급");
+		System.out.println("2. 대기 번호 호출");
+		System.out.println("3. 종료");
+		System.out.println("메뉴를 선택 하세요");
+		
+		int choice = sc.nextInt();
+		
+		switch (choice) {
+		case 1 : 
+			issueWaitNumber(waitList);
+			break;
+		case 2 :
+			callWaitNumber(waitList);
+		}
+		
+
+
+		
+
+	}
+
+	private static void callWaitNumber(Queue<Integer> waitList) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void issueWaitNumber(Queue<Integer> waitList) {
+		int waitNumber = waitList.size() + 1;
+		waitList.offer(waitNumber);
+		System.out.println("대기번호 " + waitNumber + "가 발급되었습니다.");
+		
+	}
+
+}

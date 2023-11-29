@@ -1,0 +1,9 @@
+package employees;
+
+public class CompanyEx2 {
+	public static void main(String[] args) {
+		Employee 채치수 = new Part("2301", "채치수", 10, 10, 9620);
+		
+		Department 총무부 = new Department(10, "총무부");
+	}
+}

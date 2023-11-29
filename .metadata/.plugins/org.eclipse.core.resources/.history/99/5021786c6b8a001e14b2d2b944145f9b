@@ -1,0 +1,19 @@
+package parsers;
+
+public class ParseManager implements Parsable{	
+	
+
+	@Override
+	public void checkParser(Parser p) {
+		if (XMLParser.getName().equals("a.XML")) {
+			p.parsingData();
+		} else if (XMLParser.getName().equals("b.JSON")) {
+			p.parsingData();
+		}
+	}
+
+
+	
+
+
+}

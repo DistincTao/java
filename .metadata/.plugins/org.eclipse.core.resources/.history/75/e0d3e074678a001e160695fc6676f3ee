@@ -1,0 +1,14 @@
+package parsers;
+
+public class ParseManager{	
+	
+	public ParseManager checkParser(ParseManager pm) {
+		if (pm.)
+		
+		return pm;
+		
+	}
+	
+
+
+}

@@ -1,0 +1,14 @@
+package collection;
+
+import java.util.List;
+
+public class StackTest {
+
+	public static void main(String[] args) {
+		// Stack : 자료 구조의 Stack 구조를 클래스화 한 것
+		//  LIFO : Last in First Out
+		
+		List <String> stack = new StackTest();
+	}
+
+}

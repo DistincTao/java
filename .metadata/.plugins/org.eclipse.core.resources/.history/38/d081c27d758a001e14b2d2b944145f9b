@@ -1,0 +1,16 @@
+package parsers;
+
+public class ParserEx1 {
+
+	public static void main(String[] args) {
+		XMLParser xp = new XMLParser();
+		JSONParser jp = new JSONParser();
+		
+		ParseManager pm = new ParseManager ();
+		pm.checkfile("123.xml");
+
+		
+
+	}
+
+}

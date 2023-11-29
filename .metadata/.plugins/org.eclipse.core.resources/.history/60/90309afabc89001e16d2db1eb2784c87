@@ -1,0 +1,7 @@
+package interfacePractice;
+
+public interface Camera {
+	public abstract void takingPic();
+	void zoomIn();
+	void zoomOut();
+}

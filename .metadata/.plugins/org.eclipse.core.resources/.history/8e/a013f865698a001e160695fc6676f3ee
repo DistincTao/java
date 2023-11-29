@@ -1,0 +1,8 @@
+package parsers;
+
+public interface Parser {
+
+	void parsingData(ParseManager pm);
+	void stopParsing(ParseManager pm);
+	
+}

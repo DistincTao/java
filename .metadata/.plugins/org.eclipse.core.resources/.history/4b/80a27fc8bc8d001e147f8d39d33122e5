@@ -1,0 +1,57 @@
+package regNo;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HashSetRegNoTest {
+
+	public static void main(String[] args) {
+		Korean k1 = new Korean("231128-1", "둘리");
+		Korean k2 = new Korean("231128-1", "둘리");
+
+		System.out.println(k1.hashCode());
+		System.out.println(k2.hashCode());
+	
+		Set<Korean> set = new HashSet<>();
+
+		set.add(k1);	
+		set.add(k2);
+		
+		
+		for (Korean kor : set) {
+			System.out.println(kor.toString() + ", " + kor.hashCode());
+		}
+		
+	}
+
+	@Override
+	public int hashCode() {
+		return super.hashCode();
+	}
+
+
+	public boolean equals(Korean kor) {
+		if (this.hashCode() != kor.hashCode()) {
+			if (kor.getRegNo().equals(this.toString())) {
+				
+			}
+		}
+		return super.equals(kor);
+	}
+
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		return super.clone();
+	}
+
+	@Override
+	public String toString() {
+		return super.toString();
+	}
+
+	@Override
+	protected void finalize() throws Throwable {
+		super.finalize();
+	}
+
+}

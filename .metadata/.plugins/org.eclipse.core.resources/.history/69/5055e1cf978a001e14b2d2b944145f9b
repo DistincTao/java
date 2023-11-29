@@ -1,0 +1,28 @@
+package exception;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class ExceptionThrowsTest  {
+
+	public static void main(String[] args)  {
+//		getPositiveNumber();
+		System.out.println("숫자를 입력하세요 >>>>");
+		int num = 0;
+		try {
+			num = getPositiveNumber();
+			System.out.println("값은 : " + num);
+		} catch (InputMismatchException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+	private static int getPositiveNumber() throws InputMismatchException {
+		Scanner sc = new Scanner (System.in);
+		int tmp = sc.nextInt();
+		
+		return tmp;
+	}
+}

@@ -1,0 +1,21 @@
+package department;
+
+import employees.Employees;
+
+public class Account extends Department{
+	private Employees[] member = new Employees[10];
+	int i = 0;
+	public Account(String name) {
+		super(name);
+	}
+	
+	public void recordMemebers(Employees e) {
+		for (int i = 0; i < member.length; i++) {
+			if (member[i] == null) break;
+		}
+		member[i++] = e;
+	}
+	
+	
+	
+}

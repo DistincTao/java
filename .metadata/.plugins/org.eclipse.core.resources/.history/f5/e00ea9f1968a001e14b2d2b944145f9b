@@ -1,0 +1,19 @@
+package exception;
+
+import java.util.Scanner;
+
+public class ExceptionThrowsTest {
+
+	public static void main(String[] args) {
+		getPositiveNumber();
+		System.out.println("값은 : " + getPositiveNumber());
+
+	}
+
+	private static int getPositiveNumber () {
+		Scanner sc = new Scanner (System.in);
+		int tmp = sc.nextInt();
+		
+		return tmp;
+	}
+}

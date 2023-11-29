@@ -1,0 +1,31 @@
+package regNo;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HashSetRegNoTest {
+
+	public static void main(String[] args) {
+		Korean k1 = new Korean("2301", "둘리");
+		Korean k2 = new Korean("2301", "희동이");
+		Korean k3 = new Korean("2302", "둘리");
+
+		System.out.println(k1.hashCode());
+		System.out.println(k2.hashCode());
+	
+		Set<Korean> set = new HashSet<>();
+
+		set.add(k1);	
+		set.add(k2);
+		set.add(k3);
+		
+		System.out.println(k1.equals(k2));
+
+		for (Korean kor : set) {
+			System.out.println(kor.toString() + ", " + kor.hashCode());
+		}
+		
+	}
+
+
+}

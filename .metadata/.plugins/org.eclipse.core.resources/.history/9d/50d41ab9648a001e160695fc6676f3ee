@@ -1,0 +1,18 @@
+package parsers;
+
+public class ParseManager implements Parsable{
+
+	@Override
+	public void parsingData(ParseManager pm) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void stopParsing(ParseManager pm) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

@@ -1,0 +1,17 @@
+package parsers;
+
+public class ParseManager implements Parsable{	
+	
+
+	public String checkfile(String fileName) {
+//		String ext = fileName.substring(fileName.indexOf("."));		
+		String ext = fileName.substring(fileName.lastIndexOf(".") + 1);
+		return ext;
+		
+	}
+
+
+	
+
+
+}

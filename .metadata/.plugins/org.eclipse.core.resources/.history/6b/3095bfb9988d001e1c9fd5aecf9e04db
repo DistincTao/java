@@ -1,0 +1,10 @@
+package queueNumber;
+
+public class QueueEx1_WaitingList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

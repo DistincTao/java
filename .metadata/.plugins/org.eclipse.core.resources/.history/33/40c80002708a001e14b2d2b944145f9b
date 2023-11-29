@@ -1,0 +1,13 @@
+package parsers;
+
+public class ParserEx2 {
+
+	public static void main(String[] args) {
+		ParseManager pm = new ParseManager ();
+		pm.getParser("123.xml").parse("123.xml");
+		pm.getParser("q1234.json");
+		
+
+	}
+
+}

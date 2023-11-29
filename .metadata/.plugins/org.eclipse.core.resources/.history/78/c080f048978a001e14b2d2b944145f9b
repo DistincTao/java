@@ -1,0 +1,28 @@
+package exception;
+
+import java.util.Scanner;
+
+public class ExceptionThrowsTest {
+
+	public static void main(String[] args) {
+//		getPositiveNumber();
+		try {
+			System.out.println("숫자를 입력하세요 >>>>");
+			int num = 0;
+			num = getPositiveNumber();
+			System.out.println("값은 : " + num);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+//			e.printStackTrace();
+			System.out.println("숫자가 아닙니다. 숫자를 입력하셔요");
+		}
+
+	}
+
+	private static int getPositiveNumber () {
+		Scanner sc = new Scanner (System.in);
+		int tmp = sc.nextInt();
+		
+		return tmp;
+	}
+}

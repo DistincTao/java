@@ -1,0 +1,25 @@
+package department;
+
+import employees.Employees;
+
+public class Accountant {
+	private String name;
+	
+	public Accountant(String name) {
+		this.name = name;
+	}
+
+	public String getName() {
+		return this.name;
+	}
+	
+	public void calPay (Employees e) {
+		for (int i = 0; i < )
+	}
+	
+
+	
+	
+	
+	
+}

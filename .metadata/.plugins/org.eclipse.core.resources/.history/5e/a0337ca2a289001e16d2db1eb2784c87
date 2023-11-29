@@ -1,0 +1,8 @@
+package singleTon;
+
+public class SingleTon {
+	private static Singleton instance;
+	
+	// 생성자
+	public Singleton s = new Singleton();
+}

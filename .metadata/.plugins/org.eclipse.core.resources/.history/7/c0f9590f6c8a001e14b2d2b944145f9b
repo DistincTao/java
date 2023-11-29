@@ -1,0 +1,20 @@
+package parsers;
+
+public class XMLParser implements Parser {
+
+	@Override
+	public void parse(String extenstion) {
+		if (extenstion.equals("xml")) {
+			System.out.println("파싱 가능한 XML 파일입니다.");
+		}
+		
+	}
+
+	@Override
+	public void parse(String extenstion) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+}

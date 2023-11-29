@@ -1,0 +1,24 @@
+package parsers;
+
+public class ParseManager implements Parsable{	
+	
+
+	public String checkfile(String fileName) {
+//		String ext = fileName.substring(fileName.indexOf("."));		
+		String ext = fileName.substring(fileName.lastIndexOf(".") + 1);
+		if (ext.equals("xml")){
+			System.out.println(ext + " 파일 입니다.");
+		}
+		if (ext.equals("json")){
+			System.out.println(ext + " 파일 입니다.");
+		}
+		return ext;
+		
+	}
+
+
+
+	
+
+
+}

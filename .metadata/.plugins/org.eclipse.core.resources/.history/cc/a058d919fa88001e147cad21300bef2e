@@ -1,0 +1,18 @@
+package department;
+
+import employees.Employees;
+
+public class Accountant extends Department{
+	private String name;
+	
+	public Accountant(String name) {
+		this.name = name;
+	}
+
+	
+
+	
+	
+	
+	
+}

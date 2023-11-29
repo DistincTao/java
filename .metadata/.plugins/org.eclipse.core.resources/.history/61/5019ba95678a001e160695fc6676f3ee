@@ -1,0 +1,26 @@
+package parsers;
+
+public class XMLParser extends ParseManager implements Parsable {
+	private String name = "a.XML";
+	
+	public XMLParser () {
+		
+	}
+
+	public String getName() {
+		return this.name;
+	}
+	
+	@Override
+	public void parsingData(ParseManager pm) {
+		System.out.println(pm.getClass().getName() + "이/가 작동을 시작합니다.");
+		
+	}
+
+	@Override
+	public void stopParsing(ParseManager pm) {
+		System.out.println(pm.getClass().getName() + "이/가 Parser가 작동을 멈춥니다.");
+		
+	}
+
+}

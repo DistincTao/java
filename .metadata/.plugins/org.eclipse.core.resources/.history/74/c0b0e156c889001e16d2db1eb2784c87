@@ -1,0 +1,13 @@
+package looseCoupling;
+
+public class Interface_LooseCoupling {
+
+	public static void main(String[] args) {
+		Tv tv = new Tv("LG");
+		
+		MultiRemoteController mrc = new MultiRemoteController();
+		mrc.remoteControl(tv);
+
+	}
+
+}

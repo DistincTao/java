@@ -1,0 +1,23 @@
+package exception;
+
+public class NotPositiveInteger extends Exception {
+	
+	private int errorCode = 508;
+	
+	// 생성자
+	public NotPositiveInteger() {
+		
+	}
+	
+	public NotPositiveInteger(String msg) {
+		
+	}
+
+	@Override
+	public String getMessage() {
+		// TODO Auto-generated method stub
+		return "error code : " + this.errorCode + ", " + super.getMessage();
+	}
+	
+	
+}

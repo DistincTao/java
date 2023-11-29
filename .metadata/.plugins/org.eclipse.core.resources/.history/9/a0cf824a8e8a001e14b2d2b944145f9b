@@ -1,0 +1,17 @@
+package exception;
+
+public class NotPositiveInteger extends Exception {
+	
+	private int errorCode = 508;
+	
+	// 생성자
+	public NotPositiveInteger() {
+		
+	}
+	
+	public NotPositiveInteger(String msg) {
+		
+	}
+	
+	
+}

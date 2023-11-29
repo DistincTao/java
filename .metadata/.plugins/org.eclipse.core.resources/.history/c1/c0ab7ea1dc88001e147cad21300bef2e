@@ -1,0 +1,10 @@
+package electric;
+
+public class Computer extends Electronic{
+
+	protected Computer(String brandName, String color, int price, String type) {
+		super(brandName, color, price, type);
+
+	}
+	
+}

@@ -1,0 +1,10 @@
+package employees;
+
+public class Formal extends Employees{
+
+	Formal(String name, String type) {
+		super(name, type);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,40 @@
+package interfacePractice;
+
+public class MobilePhone implements Phone, Camera, Computer{
+
+	@Override
+	public void calling() {
+		
+	}
+
+	@Override
+	public void receiving() {
+		
+	}
+
+	@Override
+	public void takingPic() {
+		
+	}
+
+	@Override
+	public void zoomIn() {
+		
+	}
+
+	@Override
+	public void zoomOut() {
+		
+	}
+	
+	@Override
+	public void computeExpression() {
+		
+	}
+
+	@Override
+	public void playingApp() {
+		
+	}
+	
+}

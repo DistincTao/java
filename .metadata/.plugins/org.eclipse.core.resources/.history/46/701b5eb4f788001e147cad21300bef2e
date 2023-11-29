@@ -1,0 +1,53 @@
+package employees;
+
+public class Formal extends Employees{
+	private int basePay;
+	private int overTime;
+	private int extraPay = overTime * super.getHourlyRate();
+	private int totalPay = this.basePay + this.extraPay;
+
+	Formal(String name, String type, int basePay) {
+		super(name, type);
+		this.basePay = basePay;
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public int getBasePay() {
+		return basePay;
+	}
+
+	public int getOverTime() {
+		return overTime;
+	}
+
+	public int getExtraPay() {
+		return extraPay;
+	}
+
+	public int getTotalPay() {
+		return totalPay;
+	}
+
+
+
+	@Override
+	public void toDo() {
+		System.out.println("칼퇴 준비!!!");
+	}
+	
+	public int toOverTime(int overTime) {
+		this.overTime = overTime;
+		System.out.println("오늘 " + this.overTime + "시간 추가 근무를 했습니다.");
+		return extraPay;
+	}
+
+	@Override
+	public String toString() {
+		return "직원 " + this.getName() + "\n 근무 형태 : " + this.getType() 
+				+ "\n 기본급 : " + this.basePay + "\n 추가 근무 시간 : " + this.overTime 
+				+ "\n 추가 수당 : " + this.extraPay + "\n 이번달 급여: " + this.totalPay;
+	}
+
+	
+}

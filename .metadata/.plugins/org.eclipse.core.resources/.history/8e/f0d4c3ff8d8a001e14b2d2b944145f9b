@@ -1,0 +1,5 @@
+package exception;
+
+public class NotPositiveInteger extends Exception {
+
+}

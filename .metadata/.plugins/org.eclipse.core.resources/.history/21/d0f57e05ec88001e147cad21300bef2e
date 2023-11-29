@@ -1,0 +1,30 @@
+package buyer;
+
+import electric.Computer;
+import electric.Monitor;
+import electric.TV;
+
+public class ElectricMartEx1 {
+
+	public static void main(String[] args) {
+		TV tv = new TV(200000);
+		System.out.println(tv.toString());
+		Monitor monitor = new Monitor(100000);
+		System.out.println(monitor.toString());;
+		Computer computer = new Computer();
+		System.out.println(computer.toString());
+
+		
+		Buyer buyer = new Buyer();
+		buyer.buy(tv);
+		buyer.buy(monitor);
+		buyer.buy(computer);
+//		buyer.returnProduct(tv);
+//		buyer.returnProduct(monitor);
+//		buyer.returnProduct(computer);
+//		buyer.usePoint(monitor);
+//		buyer.usePoint(monitor);
+		buyer.outputRecipt();
+	}
+
+}

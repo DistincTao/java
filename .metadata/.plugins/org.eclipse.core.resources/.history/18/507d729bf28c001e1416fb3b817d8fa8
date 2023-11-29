@@ -1,0 +1,25 @@
+package collection;
+
+import java.util.List;
+import java.util.Stack;
+
+public class StackTest {
+
+	public static void main(String[] args) {
+		// Stack : 자료 구조의 Stack 구조를 클래스화 한 것
+		//  LIFO : Last in First Out
+		
+//		List <String> stack = new Stack<String>();
+		Stack <String> stack = new Stack<String>();
+		
+		stack.push("네이버");
+		stack.push("네이버웹툰");
+		stack.push("노션");
+		stack.push("자바API");
+		stack.push("네이버2");
+		
+		System.out.println(stack.peek());
+
+	}
+
+}

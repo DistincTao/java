@@ -1,0 +1,17 @@
+package looseCoupling;
+
+public class Remote {
+	private Tv tv;
+	
+	public Remote () {
+		this.tv = new Tv();
+	}
+	
+	public void powerOnTv() {
+		this.tv.powerOn();
+	}
+	
+	public void powerOffTv() {
+		this.tv.powerOff();
+	}
+}

@@ -1,0 +1,11 @@
+package looseCoupling;
+
+public class Interface_LooseCoupling {
+
+	public static void main(String[] args) {
+		Remote 리모콘 = new Remote();
+		리모콘.powerOnTv();
+
+	}
+
+}

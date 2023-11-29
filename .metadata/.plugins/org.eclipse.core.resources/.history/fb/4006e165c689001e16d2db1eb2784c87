@@ -1,0 +1,13 @@
+package looseCoupling;
+
+public class Tv {
+	private String brandName;
+	
+	public void powerOn() {
+		System.out.println("Tv가 켜집니다.");
+	}
+	
+	public void powerOff() {
+		System.out.println("Tv가 꺼집니다.");
+	}
+}

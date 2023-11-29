@@ -1,0 +1,74 @@
+package queueNumber;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+
+public class waitingNumber {
+
+	static Queue<Integer> waitingList = new LinkedList<>();
+	
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		Boolean reapeat = true;
+		while (reapeat) {
+			System.out.println("-------------------------------------");
+			System.out.println("--1. 번호표 뽑기");
+			System.out.println("--2. 대기 순번");
+			System.out.println("--3. 번호표 버리기");
+			System.out.println("--4. 종료");
+			System.out.println("-------------------------------------");
+			System.out.print("번호표를 뽑으세요!!");
+			int number = sc.nextInt();
+			
+			switch (number) {
+			case 1:
+				pickWaitingNum(waitingList);
+				break;
+			case 2:
+				checkWaitingNum();
+				break;
+			case 3:
+				throwWaitingNum();
+				break;
+			case 4:
+				System.exit(0);
+				reapeat = false;
+				break;
+
+			}
+			
+			
+		}
+
+
+		
+	}
+
+	private static void pickWaitingNum(Queue<Integer> waitingList) {
+		if (waitingList.isEmpty()) {
+			waitingList.add(1);
+		} else {
+			for (int i = 0; i < waitingList.size(); i++) {
+				if (!waitingList.isEmpty() && waitingList.peek() == (null)){
+					waitingList.add(i + 1);
+				}
+			}
+			
+		}
+	}
+
+	private static void checkWaitingNum() {
+		int call = waitingList.poll();
+		System.out.println(call);
+		
+	}
+
+	private static void throwWaitingNum() {
+
+		
+	}
+
+}
