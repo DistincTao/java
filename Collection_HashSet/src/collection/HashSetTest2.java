@@ -82,6 +82,54 @@ public class HashSetTest2 {
 		}
 		System.out.println("setUni = " + setUni);
 
+		System.out.println("---------------------------------");
+		// 메소드를 활용해서 차집합 교집합 합집합 구하기
+		// 차집합
+		setA = makeSetA();
+		setB = makeSetB();
+		setA.removeAll(setB);
+		System.out.println(setA);
+		
+		setA = makeSetA();
+		setB = makeSetB();
+		setB.removeAll(setA);
+		System.out.println(setB);
+		
+		//합집합
+		setA = makeSetA();
+		setB = makeSetB();
+		setA.addAll(setB);
+		System.out.println(setA);
+
+		// 교집합
+		setA = makeSetA();
+		setB = makeSetB();
+		
+		setA.retainAll(setB);
+		System.out.println(setA);
+		
 	}
+
+	static HashSet<String> makeSetB() {
+		HashSet<String> setB = new HashSet<>();
+		setB.add("4");
+		setB.add("5");
+		setB.add("6");
+		setB.add("7");
+		setB.add("8");
+		return setB;
+	}
+
+	static HashSet<String> makeSetA() {
+		HashSet<String> setA = new HashSet<>();
+		setA.add("1");
+		setA.add("2");
+		setA.add("3");
+		setA.add("4");
+		setA.add("5");
+		return setA;
+	}
+	
+	
 
 }
