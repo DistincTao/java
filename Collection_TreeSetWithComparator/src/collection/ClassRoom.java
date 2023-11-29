@@ -9,15 +9,12 @@ public class ClassRoom {
 	private Set <Student> stuSet;
 
 	// 생성자
-//	public ClassRoom(int classNo) {
-//		this.classNo = classNo;
-//		this.stuSet = new TreeSet<Student>(compInt);
-//	}
-	
-	public ClassRoom(int classNo) {
+	public ClassRoom(int classNo, int i) {
 		this.classNo = classNo;
-		this.stuSet = new TreeSet<Student>(compString);
+		this.stuSet = new TreeSet<Student>(new ComparatorManager().getComparator(i));
+//		this.stuSet = new TreeSet<Student>(compInt);
 	}
+	
 	
 	// getter, setter
 	public int getClassNo() {

@@ -1,0 +1,24 @@
+package collection;
+
+import java.util.Comparator;
+
+public class ComparatorManager {
+
+	public static Comparator <Student> getComparator(int i) {
+		Comparator <Student> myComparator = null;
+		switch (i) {
+		case 1 :
+			myComparator = new CompInt();
+			break;
+		case 2 :
+			myComparator = new CompString();
+			break;
+		case 3 :
+			myComparator = new CompMulti();
+			break;
+		}
+		return myComparator;	
+		
+	}
+	
+}

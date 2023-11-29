@@ -1,0 +1,21 @@
+package collection;
+
+import java.util.Comparator;
+
+public class CompString implements Comparator<Student> {
+
+	@Override
+	public int compare(Student s1, Student s2) {
+		if (s1.getScore() < s2.getScore()) { 
+			return 1;
+		} else if (s1.getStuNo() == s2.getStuNo()) {
+			return 0;
+		} else if (s1.getScore() == s2.getScore()) {
+			return s1.getStuNo().compareTo(s2.getStuNo());
+		} else {
+			return -1;
+		}
+		
+	}
+	
+}
