@@ -98,7 +98,7 @@ public class Korean {
 //	 }
 //		 return hash;
 //	} 
-
+	
 	@Override
 	public int hashCode() {
 		 int hash = Objects.hash(regNo);
@@ -107,4 +107,7 @@ public class Korean {
 		 }
 		 return hash;
 	} 
+	
+
+	
 }
