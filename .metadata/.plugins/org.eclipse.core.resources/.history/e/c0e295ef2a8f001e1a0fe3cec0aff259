@@ -1,0 +1,9 @@
+package comparators;
+
+import java.util.Comparator;
+
+import collection2.Student;
+
+public interface Sortable extends Comparator<Student> {
+
+}

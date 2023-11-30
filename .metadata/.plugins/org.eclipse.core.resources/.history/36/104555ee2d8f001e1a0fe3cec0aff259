@@ -1,0 +1,22 @@
+package collection2;
+
+public class ComparatorManager {
+
+	public Sortable getComparator(int i) {
+		Sortable myComparator = null;
+		switch (i) {
+		case 1 :
+			myComparator = new DescendingByScore();
+			break;
+		case 2 :
+			myComparator = new AccendingByName();
+			break;
+		default :
+			myComparator = new DescendingByName();
+			break;	
+		}
+		return myComparator;	
+	}
+
+	
+}
