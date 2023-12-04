@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Collection_HashMap_Words</name>
+	<name>Thread_Ex</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1701683676242</id>
+			<id>1701683676255</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
