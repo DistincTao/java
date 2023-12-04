@@ -1,7 +1,0 @@
-package parsers;
-
-public interface Parsable {
-
-	void parsingData();
-	void stopParsing();
-}
