@@ -5,14 +5,13 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.SQLSyntaxErrorException;
 import java.sql.Statement;
-import java.util.Scanner;
 
 public class InsertTest {
 
 public static void main(String[] args) {
 		
 		// 오라클 DB 접속하기 위해 필요한 정보 (아이디, 패스워드, DB서버 주소)
-		String id = "hr";
+		String id = "hr"; 
 		String pwd = "1234";
 		String url = "jdbc:oracle:thin:@127.0.0.1:1521:xe";
 		
@@ -32,12 +31,12 @@ public static void main(String[] args) {
 				int locId = 1700;
 				
 				// 실행할 쿼리문 준비
-				sql = "insert into Departments values (" +  deptNo + ", '" + dName + "', " + manId + ", " + locId + ")";
+				sql = "INSERT INTO DEPARTMENTS VALUES (" +  deptNo + ", '" + dName + "', " + manId + ", " + locId + ")";
 				// statement 객체 생성 : 연결하고 있는 DB서버로 전송하고 실행하는 역할을 하는 객체
 				stmt = con.createStatement();
 				int result = stmt.executeUpdate(sql);
 				
-				if (result == 1) {
+				if (result == 1) { // 1 이면 내용 전송 성공
 					System.out.println("insert 완료");	
 				}
 
