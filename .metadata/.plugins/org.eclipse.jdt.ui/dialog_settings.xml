@@ -168,4 +168,445 @@
 	<section name="BuildPathsPropertyPage">
 		<item key="pageIndex" value="2"/>
 	</section>
+	<section name="javadoc">
+		<item key="javadoc_command_history" value="C:\Users\goott5\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin\javadoc.exe"/>
+		<item key="fromStandard" value="true"/>
+		<item key="docletname" value=""/>
+		<item key="docletpath" value=""/>
+		<item key="access" value="private"/>
+		<item key="use" value="true"/>
+		<item key="author" value="true"/>
+		<item key="version" value="true"/>
+		<item key="nodeprecated" value="false"/>
+		<item key="nodeprecatedlist" value="false"/>
+		<item key="splitindex" value="true"/>
+		<item key="noindex" value="false"/>
+		<item key="notree" value="false"/>
+		<item key="nonavbar" value="false"/>
+		<item key="openinbrowser" value="true"/>
+		<item key="source" value="1.8"/>
+		<item key="antpath" value="D:\Lectures\java\JDBC_Friends2\javadoc.xml"/>
+		<item key="destdir" value="D:\Lectures\java\JDBC_Friends2\doc"/>
+		<item key="vmparam" value="-locale ko_KR -encoding UTF-8 -charset UTF-8 -docencoding UTF-8&#x0D;&#x0A;"/>
+		<section name="projects">
+			<section name="OOPEx2_Constructor">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\OOPEx2_Constructor\doc"/>
+				<item key="antpath" value="D:\Lectures\java\OOPEx2_Constructor\javadoc.xml"/>
+			</section>
+			<section name="MemberClass">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\MemberClass\doc"/>
+				<item key="antpath" value="D:\Lectures\java\MemberClass\javadoc.xml"/>
+			</section>
+			<section name="IO_Ex4">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\IO_Ex4\doc"/>
+				<item key="antpath" value="D:\Lectures\java\IO_Ex4\javadoc.xml"/>
+			</section>
+			<section name="CardTest">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\CardTest\doc"/>
+				<item key="antpath" value="D:\Lectures\java\CardTest\javadoc.xml"/>
+			</section>
+			<section name="IO_Ex3">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\IO_Ex3\doc"/>
+				<item key="antpath" value="D:\Lectures\java\IO_Ex3\javadoc.xml"/>
+			</section>
+			<section name="IO_Ex2">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\IO_Ex2\doc"/>
+				<item key="antpath" value="D:\Lectures\java\IO_Ex2\javadoc.xml"/>
+			</section>
+			<section name="ConstructorTest">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ConstructorTest\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ConstructorTest\javadoc.xml"/>
+			</section>
+			<section name="IO_Ex1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\IO_Ex1\doc"/>
+				<item key="antpath" value="D:\Lectures\java\IO_Ex1\javadoc.xml"/>
+			</section>
+			<section name="ArrayEx1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ArrayEx1\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ArrayEx1\javadoc.xml"/>
+			</section>
+			<section name="ExceptionTest3">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ExceptionTest3\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ExceptionTest3\javadoc.xml"/>
+			</section>
+			<section name="ArrayEx2">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ArrayEx2\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ArrayEx2\javadoc.xml"/>
+			</section>
+			<section name="ExceptionTest2">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ExceptionTest2\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ExceptionTest2\javadoc.xml"/>
+			</section>
+			<section name="StaticVsInstanceEx1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\StaticVsInstanceEx1\doc"/>
+				<item key="antpath" value="D:\Lectures\java\StaticVsInstanceEx1\javadoc.xml"/>
+			</section>
+			<section name="ExceptionTest1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ExceptionTest1\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ExceptionTest1\javadoc.xml"/>
+			</section>
+			<section name="ReferenceParamEx">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ReferenceParamEx\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ReferenceParamEx\javadoc.xml"/>
+			</section>
+			<section name="ArrayEx5">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ArrayEx5\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ArrayEx5\javadoc.xml"/>
+			</section>
+			<section name="Thread_Ex4">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\Thread_Ex4\doc"/>
+				<item key="antpath" value="D:\Lectures\java\Thread_Ex4\javadoc.xml"/>
+			</section>
+			<section name="ArrayEx6">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ArrayEx6\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ArrayEx6\javadoc.xml"/>
+			</section>
+			<section name="SortList">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\SortList\doc"/>
+				<item key="antpath" value="D:\Lectures\java\SortList\javadoc.xml"/>
+			</section>
+			<section name="Thread_Ex3">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\Thread_Ex3\doc"/>
+				<item key="antpath" value="D:\Lectures\java\Thread_Ex3\javadoc.xml"/>
+			</section>
+			<section name="ArrayEx3">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ArrayEx3\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ArrayEx3\javadoc.xml"/>
+			</section>
+			<section name="ArrayEx4">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ArrayEx4\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ArrayEx4\javadoc.xml"/>
+			</section>
+			<section name="Thread_Ex5">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\Thread_Ex5\doc"/>
+				<item key="antpath" value="D:\Lectures\java\Thread_Ex5\javadoc.xml"/>
+			</section>
+			<section name="InheritanceEx2">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\InheritanceEx2\doc"/>
+				<item key="antpath" value="D:\Lectures\java\InheritanceEx2\javadoc.xml"/>
+			</section>
+			<section name="DataTypeAndVariable">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\DataTypeAndVariable\doc"/>
+				<item key="antpath" value="D:\Lectures\java\DataTypeAndVariable\javadoc.xml"/>
+			</section>
+			<section name="ThreadEx2">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ThreadEx2\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ThreadEx2\javadoc.xml"/>
+			</section>
+			<section name="InheritanceEx1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\InheritanceEx1\doc"/>
+				<item key="antpath" value="D:\Lectures\java\InheritanceEx1\javadoc.xml"/>
+			</section>
+			<section name="PetEx1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\PetEx1\doc"/>
+				<item key="antpath" value="D:\Lectures\java\PetEx1\javadoc.xml"/>
+			</section>
+			<section name="PrinterEx">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\PrinterEx\doc"/>
+				<item key="antpath" value="D:\Lectures\java\PrinterEx\javadoc.xml"/>
+			</section>
+			<section name="AccountEx">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\AccountEx\doc"/>
+				<item key="antpath" value="D:\Lectures\java\AccountEx\javadoc.xml"/>
+			</section>
+			<section name="ExceptionTest5">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ExceptionTest5\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ExceptionTest5\javadoc.xml"/>
+			</section>
+			<section name="ExceptionTest4">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ExceptionTest4\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ExceptionTest4\javadoc.xml"/>
+			</section>
+			<section name="Collection_HashMap_Words">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\Collection_HashMap_Words\doc"/>
+				<item key="antpath" value="D:\Lectures\java\Collection_HashMap_Words\javadoc.xml"/>
+			</section>
+			<section name="InterfaceEx2">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\InterfaceEx2\doc"/>
+				<item key="antpath" value="D:\Lectures\java\InterfaceEx2\javadoc.xml"/>
+			</section>
+			<section name="InterfaceEx1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\InterfaceEx1\doc"/>
+				<item key="antpath" value="D:\Lectures\java\InterfaceEx1\javadoc.xml"/>
+			</section>
+			<section name="HelloJava">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\HelloJava\doc"/>
+				<item key="antpath" value="D:\Lectures\java\HelloJava\javadoc.xml"/>
+			</section>
+			<section name="Interface_LooseCoupling">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\Interface_LooseCoupling\doc"/>
+				<item key="antpath" value="D:\Lectures\java\Interface_LooseCoupling\javadoc.xml"/>
+			</section>
+			<section name="ParserEx1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ParserEx1\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ParserEx1\javadoc.xml"/>
+			</section>
+			<section name="SingleTonPattern">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\SingleTonPattern\doc"/>
+				<item key="antpath" value="D:\Lectures\java\SingleTonPattern\javadoc.xml"/>
+			</section>
+			<section name="ParserEx2">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ParserEx2\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ParserEx2\javadoc.xml"/>
+			</section>
+			<section name="ArrayEx7">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ArrayEx7\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ArrayEx7\javadoc.xml"/>
+			</section>
+			<section name="Thread_Ex1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\Thread_Ex1\doc"/>
+				<item key="antpath" value="D:\Lectures\java\Thread_Ex1\javadoc.xml"/>
+			</section>
+			<section name="OOPEx1_BasicConcept">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\OOPEx1_BasicConcept\doc"/>
+				<item key="antpath" value="D:\Lectures\java\OOPEx1_BasicConcept\javadoc.xml"/>
+			</section>
+			<section name="ScoreVer1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ScoreVer1\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ScoreVer1\javadoc.xml"/>
+			</section>
+			<section name="ScoreVer2">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ScoreVer2\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ScoreVer2\javadoc.xml"/>
+			</section>
+			<section name="DataTypeCasting">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\DataTypeCasting\doc"/>
+				<item key="antpath" value="D:\Lectures\java\DataTypeCasting\javadoc.xml"/>
+			</section>
+			<section name="ScoreVer3">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ScoreVer3\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ScoreVer3\javadoc.xml"/>
+			</section>
+			<section name="Collection_TreeSetWithComparator">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\Collection_TreeSetWithComparator\doc"/>
+				<item key="antpath" value="D:\Lectures\java\Collection_TreeSetWithComparator\javadoc.xml"/>
+			</section>
+			<section name="PrimitiveParamEx">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\PrimitiveParamEx\doc"/>
+				<item key="antpath" value="D:\Lectures\java\PrimitiveParamEx\javadoc.xml"/>
+			</section>
+			<section name="JDBC_Friends2">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\JDBC_Friends2\doc"/>
+				<item key="antpath" value="D:\Lectures\java\JDBC_Friends2\javadoc.xml"/>
+			</section>
+			<section name="MethodCreationEx1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\MethodCreationEx1\doc"/>
+				<item key="antpath" value="D:\Lectures\java\MethodCreationEx1\javadoc.xml"/>
+			</section>
+			<section name="PolyMorphism_Casting">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\PolyMorphism_Casting\doc"/>
+				<item key="antpath" value="D:\Lectures\java\PolyMorphism_Casting\javadoc.xml"/>
+			</section>
+			<section name="ForEx">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ForEx\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ForEx\javadoc.xml"/>
+			</section>
+			<section name="Collection_HashMap">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\Collection_HashMap\doc"/>
+				<item key="antpath" value="D:\Lectures\java\Collection_HashMap\javadoc.xml"/>
+			</section>
+			<section name="Collection_Queue">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\Collection_Queue\doc"/>
+				<item key="antpath" value="D:\Lectures\java\Collection_Queue\javadoc.xml"/>
+			</section>
+			<section name="Collection_HashSet_RegNo">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\Collection_HashSet_RegNo\doc"/>
+				<item key="antpath" value="D:\Lectures\java\Collection_HashSet_RegNo\javadoc.xml"/>
+			</section>
+			<section name="JDBC_Ex4">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\JDBC_Ex4\doc"/>
+				<item key="antpath" value="D:\Lectures\java\JDBC_Ex4\javadoc.xml"/>
+			</section>
+			<section name="JDBC_Ex5">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\JDBC_Ex5\doc"/>
+				<item key="antpath" value="D:\Lectures\java\JDBC_Ex5\javadoc.xml"/>
+			</section>
+			<section name="JDBC_Ex2">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\JDBC_Ex2\doc"/>
+				<item key="antpath" value="D:\Lectures\java\JDBC_Ex2\javadoc.xml"/>
+			</section>
+			<section name="Collection_HashSet">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\Collection_HashSet\doc"/>
+				<item key="antpath" value="D:\Lectures\java\Collection_HashSet\javadoc.xml"/>
+			</section>
+			<section name="JDBC_Ex3">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\JDBC_Ex3\doc"/>
+				<item key="antpath" value="D:\Lectures\java\JDBC_Ex3\javadoc.xml"/>
+			</section>
+			<section name="Thread_Collection">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\Thread_Collection\doc"/>
+				<item key="antpath" value="D:\Lectures\java\Thread_Collection\javadoc.xml"/>
+			</section>
+			<section name="JDBC_Ex6">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\JDBC_Ex6\doc"/>
+				<item key="antpath" value="D:\Lectures\java\JDBC_Ex6\javadoc.xml"/>
+			</section>
+			<section name="CardDealerTest">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\CardDealerTest\doc"/>
+				<item key="antpath" value="D:\Lectures\java\CardDealerTest\javadoc.xml"/>
+			</section>
+			<section name="JDBC_Friends">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\JDBC_Friends\doc"/>
+				<item key="antpath" value="D:\Lectures\java\JDBC_Friends\javadoc.xml"/>
+			</section>
+			<section name="Collection_TreSet">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\Collection_TreSet\doc"/>
+				<item key="antpath" value="D:\Lectures\java\Collection_TreSet\javadoc.xml"/>
+			</section>
+			<section name="JDBC_Ex1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\JDBC_Ex1\doc"/>
+				<item key="antpath" value="D:\Lectures\java\JDBC_Ex1\javadoc.xml"/>
+			</section>
+			<section name="StaticVsInstance">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\StaticVsInstance\doc"/>
+				<item key="antpath" value="D:\Lectures\java\StaticVsInstance\javadoc.xml"/>
+			</section>
+			<section name="Collection_Stack">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\Collection_Stack\doc"/>
+				<item key="antpath" value="D:\Lectures\java\Collection_Stack\javadoc.xml"/>
+			</section>
+			<section name="Collection_RawType">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\Collection_RawType\doc"/>
+				<item key="antpath" value="D:\Lectures\java\Collection_RawType\javadoc.xml"/>
+			</section>
+			<section name="Collection_ArrayListEx1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\Collection_ArrayListEx1\doc"/>
+				<item key="antpath" value="D:\Lectures\java\Collection_ArrayListEx1\javadoc.xml"/>
+			</section>
+			<section name="OperationEx">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\OperationEx\doc"/>
+				<item key="antpath" value="D:\Lectures\java\OperationEx\javadoc.xml"/>
+			</section>
+			<section name="Collection_HashMapEx1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\Collection_HashMapEx1\doc"/>
+				<item key="antpath" value="D:\Lectures\java\Collection_HashMapEx1\javadoc.xml"/>
+			</section>
+			<section name="MethodCreationEx">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\MethodCreationEx\doc"/>
+				<item key="antpath" value="D:\Lectures\java\MethodCreationEx\javadoc.xml"/>
+			</section>
+			<section name="PolyMorphism_Binding">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\PolyMorphism_Binding\doc"/>
+				<item key="antpath" value="D:\Lectures\java\PolyMorphism_Binding\javadoc.xml"/>
+			</section>
+			<section name="Collection_ArrayList_LinkedList">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\Collection_ArrayList_LinkedList\doc"/>
+				<item key="antpath" value="D:\Lectures\java\Collection_ArrayList_LinkedList\javadoc.xml"/>
+			</section>
+			<section name="InstanceCopy">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\InstanceCopy\doc"/>
+				<item key="antpath" value="D:\Lectures\java\InstanceCopy\javadoc.xml"/>
+			</section>
+			<section name="ElectricMartEx1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ElectricMartEx1\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ElectricMartEx1\javadoc.xml"/>
+			</section>
+			<section name="ElectricMartEx2">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ElectricMartEx2\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ElectricMartEx2\javadoc.xml"/>
+			</section>
+			<section name="ShapeEx1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ShapeEx1\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ShapeEx1\javadoc.xml"/>
+			</section>
+			<section name="ShapeEx2">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\ShapeEx2\doc"/>
+				<item key="antpath" value="D:\Lectures\java\ShapeEx2\javadoc.xml"/>
+			</section>
+			<section name="CompanyEx2">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\CompanyEx2\doc"/>
+				<item key="antpath" value="D:\Lectures\java\CompanyEx2\javadoc.xml"/>
+			</section>
+			<section name="CompanyEx1">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\Lectures\java\CompanyEx1\doc"/>
+				<item key="antpath" value="D:\Lectures\java\CompanyEx1\javadoc.xml"/>
+			</section>
+		</section>
+	</section>
+	<section name="SelfEncapsulateFieldWizard">
+		<item key="GenerateJavadoc" value="false"/>
+	</section>
 </section>

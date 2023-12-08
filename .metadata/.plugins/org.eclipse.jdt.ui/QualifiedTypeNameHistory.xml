@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
-    <fullyQualifiedTypeName name="java.util.Objects"/>
-    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
-    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
-    <fullyQualifiedTypeName name="java.util.Comparator"/>
-    <fullyQualifiedTypeName name="collection2.Student"/>
-    <fullyQualifiedTypeName name="collection2.AccendingByName"/>
-    <fullyQualifiedTypeName name="collection2.DescendingByScore"/>
-    <fullyQualifiedTypeName name="java.util.SortedSet"/>
-    <fullyQualifiedTypeName name="collection2.Sortable"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.TreeSet"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
@@ -54,10 +44,20 @@
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="com.distinctao.dao.DBConnection"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-    <fullyQualifiedTypeName name="com.distinctao.dao.FriendMngDaoImpl"/>
+    <fullyQualifiedTypeName name="com.distinctao.view.FriendDBInsert"/>
+    <fullyQualifiedTypeName name="com.distinctao.dto.FriendDTO"/>
+    <fullyQualifiedTypeName name="com.distinctao.service.GetNameInfo"/>
+    <fullyQualifiedTypeName name="com.distinctao.service.GetDataInfo"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.distinctao.view.FriendUpdate"/>
+    <fullyQualifiedTypeName name="com.distinctao.view.FriendSearchName"/>
+    <fullyQualifiedTypeName name="com.distinctao.controller.service.OuputEntireFriendService"/>
+    <fullyQualifiedTypeName name="com.distinctao.view.FriendDeleteByName"/>
+    <fullyQualifiedTypeName name="com.distinctao.controller.service.DeleteFriendService"/>
     <fullyQualifiedTypeName name="com.distinctao.dao.FriendMngDao"/>
+    <fullyQualifiedTypeName name="com.distinctao.dao.FriendMngDaoImpl"/>
+    <fullyQualifiedTypeName name="com.distinctao.controller.service.OuputFriendByNameService"/>
 </qualifiedTypeNameHistroy>
