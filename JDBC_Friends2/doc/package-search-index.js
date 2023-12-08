@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.distinctao.controller"},{"l":"com.distinctao.controller.service"},{"l":"com.distinctao.dao"},{"l":"com.distinctao.dto"},{"l":"com.distinctao.service"},{"l":"com.distinctao.view"},{"l":"com.distinctao.vo"}];updateSearchResults();

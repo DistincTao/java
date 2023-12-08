@@ -1,0 +1,7 @@
+com.distinctao.controller
+com.distinctao.controller.service
+com.distinctao.dao
+com.distinctao.dto
+com.distinctao.service
+com.distinctao.view
+com.distinctao.vo

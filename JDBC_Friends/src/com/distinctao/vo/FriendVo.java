@@ -1,6 +1,6 @@
 package com.distinctao.vo;
 
-public class Friend {
+public class FriendVo {
 	private int friend_no;
 	private String friend_name;
 	private String mobile;
@@ -8,7 +8,7 @@ public class Friend {
 	
 
 	 // 생성자
-	public Friend(int friend_no, String friend_name, String mobile, String addr) {
+	public FriendVo(int friend_no, String friend_name, String mobile, String addr) {
 		this.friend_no = friend_no;
 		this.friend_name = friend_name;
 		this.mobile = mobile;
