@@ -1,5 +1,6 @@
 package com.distinctao.controller;
 
+import com.distinctao.controller.service.DeleteAllFriendService;
 import com.distinctao.controller.service.DeleteFriendService;
 import com.distinctao.controller.service.OuputEntireFriendService;
 import com.distinctao.controller.service.OuputFriendByMobileService;

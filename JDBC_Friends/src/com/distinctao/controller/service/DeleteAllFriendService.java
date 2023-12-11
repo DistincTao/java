@@ -1,4 +1,4 @@
-package com.distinctao.controller;
+package com.distinctao.controller.service;
 
 import java.sql.SQLException;
 
